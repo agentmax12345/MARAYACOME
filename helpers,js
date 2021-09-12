@@ -1,0 +1,20 @@
+/*
+# Exclusively from MARAYA
+*/
+
+function successfullMessage(msg) {
+    return "✅ *MARAYA*:  ```" + msg + "```"
+}
+function errorMessage(msg) {
+    return "🛑 *MARAYA*:  ```" + msg + "```"
+}
+function infoMessage(msg) {
+    return "⏺️ *MARAYA*:  ```" + msg + "```"
+}
+
+
+module.exports = {
+    successfullMessage,
+    errorMessage,
+    infoMessage
+}
